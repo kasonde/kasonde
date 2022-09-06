@@ -10,48 +10,108 @@ body:
       value: |
         Hello 👋 Thank you for submitting an issue.
         Before you start, please make sure your issue is understandable and reproducible.
-        To make your issue readable make sure you use valid Markdown syntax.
 
-        https://guides.github.com/features/mastering-markdown/
+        Please ensure you have also read and understand the (contributing guide)[https://github.com/strapi/strapi/blob/main/CONTRIBUTING.md#reporting-an-issue].
+  
+  - type: markdown
+    attributes:
+      value: |
+        ### Required System Information
 
-        Please ensure you have also read and understand the contributing guide.
+  - type: input
+    id: node-version
+    attributes:
+      label: Node Version
+      description: What version of Node are you using?
+      placeholder: v14.19.2 for example
+    validations:
+      required: true
 
-        https://github.com/strapi/strapi/blob/main/CONTRIBUTING.md#reporting-an-issue
+  - type: input
+    id: npm-version
+    attributes:
+      label: NPM Version
+      description: What version of NPM are you using?
+      placeholder: v6.11.1 for example
+    validations:
+      required: true
+
+  - type: input
+    id: strapi-version
+    attributes:
+      label: Strapi Version
+      description: What version of Strapi are you using?
+      placeholder: v4.3.6 for example
+    validations:
+      required: true
+
+  - type: input
+    id: db-version
+    attributes:
+      label: Database Version
+      description: What database and version are you using?
+      placeholder: Postgres v14.x.x for example
+    validations:
+      required: false 
+
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating System Version
+      description: What OS and version are you using?
+      placeholder: MacOS 10.15.11 for example
+    validations:
+      required: true
+  
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
+      label: Describe the bug?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+
+  - type: textarea
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: How can we make this happen for us?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+
   - type: textarea
-    id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Additional context?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
+  
+  - type: textarea
+    attributes:
+      label: Code Snippets
+      description: |
+        If applicable, add code samples to help explain your problem.
+
+        Tip: You can paste your code here using markdown
+    validations:
+      required: false
+  
   - type: checkboxes
     id: terms
     attributes:
