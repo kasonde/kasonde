@@ -1,20 +1,18 @@
-# Hi there! I'm Richard **Kasonde** Nsama 😃
+<h1 align="center">Hi there 👋🏾, My name's Richard Nsama</h1>
+<h3 align="center">Software Engineer, currently Senior Solutions Engineer at Strapi.</h3>
 
-I'm a Software Engineer from Zambia. My Software focus is currently web and mobile development using great tools such as React, NodeJS and Flutter.
+- 🔭 I’m currently working on:
 
-![Metrics](https://metrics.lecoq.io/?template=classic&languages=1&stars=1&habits=1&activity=1&wakatime=1&base.indepth=false&base.hireable=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&stars.limit=4&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&wakatime.url=https%3A%2F%2Fwakatime.com&wakatime.user=kasonde&wakatime.sections=time%2C%20projects%2C%20projects-graphs%2C%20languages%2C%20languages-graphs%2C%20editors%2C%20os&wakatime.days=7&wakatime.limit=5&wakatime.languages.other=false&wakatime.repositories.visibility=all&config.timezone=Africa%2FLusaka)
+  - On weekdays, I'm a Senior Solutions Engineer at [Strapi](https://github.com/strapi)
+  - On weekends I'm doing stuff available on my [personal website](https://kasonde.me)
+
+- 🌱 I’m currently learning [**_Astro_**](https://astro.build)!
+
+- 🛠️ In my free time I either work on my cars, or try to make content for [Egghead!](https://egghead.io/q/resources-by-richard-nsama)
+
+- 💬 Ask me about **Old JDM cars, mobile development, IoT, and backend tech\***
+
+- 📫 How to reach me: [X/Twitter](https://x.com/rknsama)
 
 <!--
-**kasonde/kasonde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-  -->
+**kasonde/kasonde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
